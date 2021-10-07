@@ -15,11 +15,12 @@ section a:hover {
 section a {
   margin: 2em;
   padding: 15px 20px;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: white;
   background-color: rgb(10, 52, 116);
-  border-radius: 5px;
+  border-radius: 30px;
   text-decoration: none;
+  background-size: auto;
 }
 
 .icon {
@@ -36,7 +37,12 @@ section a {
 }
 
 .gia1 {
-  margin-top: 30px;
+  font-size: auto;
+  margin-top: 50px;
+  padding-top: 5px;
+  background: rgb(49, 49, 49);
+  border-radius: 60px;
+  inline-size: auto;
 }
 .gia2 {
   text-align: center;

@@ -6,51 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KAT 2</title>
   <link rel="icon" href="favicon2.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
 </head>
 
-
 <body>
 <!-------- パーツ２ ↓----------->
-  <header>
-    <div class="logo">
-      <h1><a href="https://katstyle17.github.io/index.html/">DEMO</a></h1>
-    </div>
-    
-    <div class="pc-menu">
-      <nav>
-        <ul>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="sp-menu">
-      <span class="material-icons" id="open">menu</span>
-    </div>
-  </header>
-
-  <div class="slider">
-    <img src="img/mlb10.jpg" alt="">
-    <img src="img/mlb11.jpg" alt="">
-    <img src="img/mlb12.jpg" alt="">
-    <img src="img/mlb13.jpg" alt="">
-    <img src="img/mlb14.jpg" alt="">
-    <img src="img/nfl1.jpg" alt="">
+<header>
+  <div class="logo">
+    <h1><a href="https://katstyle17.github.io/index.html/">DEMO</a></h1>
   </div>
 
-  <div class="overlay">
-    <span class="material-icons" id="close">close</span>
+  <div class="pc-menu">
     <nav>
       <ul>
         <li><a href="#">Menu</a></li>
@@ -61,9 +34,22 @@
       </ul>
     </nav>
   </div>
+
+  <div class="sp-menu">
+    <span class="material-icons" id="open">menu</span>
+  </div>
+</header>
+
+<div class="slider">
+  <img src="img/mlb10.jpg" alt="">
+  <img src="img/mlb11.jpg" alt="">
+  <img src="img/mlb12.jpg" alt="">
+  <img src="img/mlb13.jpg" alt="">
+  <img src="img/mlb14.jpg" alt="">
+  <img src="img/nfl1.jpg" alt="">
+</div>
+  
 <!-- -------- パーツ２ ↑--------- -->
-
-
 
   <section>
     <div class="top">････ DEMO site ････</div>
@@ -119,19 +105,23 @@
       <img src="img/kurage12.jpg" alt="">
       <img src="img/kurage13.jpg" alt="">
     </div>
-    
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').bxSlider({
-        auto: true,
-        pause: 5000,
-      });
-    });
-    </script>
 
 <footer>
   <p>copyright &copy katwebill.com2021</p>
 </footer>
+
+<div class="overlay">
+  <span class="material-icons" id="close">close</span>
+  <nav>
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Menu</a></li>
+    </ul>
+  </nav>
+</div>
 
 <script src="js/main.js"></script>
 </body>

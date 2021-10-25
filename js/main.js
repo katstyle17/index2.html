@@ -14,4 +14,12 @@
     overlay.classList.remove('show')
     open.classList.remove('hide')
   })
+
+// スライドショー
+  $(document).ready(function(){
+    $('.slider').bxSlider({
+      auto: true,
+      pause: 5000,
+    });
+  });
 }

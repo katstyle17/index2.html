@@ -15,12 +15,14 @@ section a:hover {
 section a {
   margin: 2em;
   padding: 15px 20px;
-  /* font-size: 20px; */
   color: white;
   background-color: rgb(10, 52, 116);
   border-radius: 30px;
   text-decoration: none;
-  background-size: auto;
+  background-size: none;
+  width: auto;
+  height: auto;
+  font-size: 16px;
 }
 
 .icon {
@@ -37,17 +39,25 @@ section a {
 }
 
 .gia1 {
-  font-size: auto;
+  /* font-size: auto; */
   margin-top: 50px;
   padding-top: 5px;
   background: rgb(49, 49, 49);
   border-radius: 60px;
-  inline-size: auto;
+  /* inline-size: auto; */
 }
 .gia2 {
   text-align: center;
   padding: 10px 0;
   margin: 30px 0;
+  background: rgb(49, 49, 49);
+  border-radius: 60px;
+}
+
+.gia1 img,
+.gia2 img {
+  height: 70px;
+  width: auto;
 }
 
 .container h1 {
@@ -151,7 +161,7 @@ main {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(2, 149, 207, 1);
+  background: rgba(2, 149, 207, .9);
   text-align: center;
   padding: 64px;
   opacity: 0;
